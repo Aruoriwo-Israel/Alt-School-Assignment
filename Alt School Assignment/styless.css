@@ -1,0 +1,580 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-cnt {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.header-span {
+    color: #0065FE;
+}
+
+.header-art-one {
+    font-size: 24px;
+    color: #0065FE;
+}
+
+.header-art-two ul {
+    display: flex;
+    list-style: none;
+    gap:30px;
+}
+
+.header-art-three {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 16px;
+    color: #0065FE;
+}
+
+.header-art-three button {
+    padding: 12px 24px;
+    border-radius: 100px;
+    border: none;
+    background-color: #0065FE;
+}
+
+.header-art-two .URLs a{
+    color: #0065FE;
+}
+
+.header-art-two ul li a{
+    color: #000;
+}
+
+.header-art-three a {
+    color: #0065FE;
+}
+
+.header-art-three button a {
+    color: #fff;
+}
+
+.CTA-art-one {
+    font-size: 37px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.CTA-art-two {
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.CTA-art-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.CTA-art-three a {
+    color: #0065FE;
+}
+
+.CTA-h2 {
+    margin-bottom: 20px;
+}
+
+.CTA-img-one {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.CTA-art-three button {
+    padding: 12px 34px;
+    border-radius: 100px;
+    border: none;
+    background-color: #0065FE;
+}
+
+.CTA-art-three button a {
+    color: #fff;
+}
+
+.CTA-img-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.CTA-img-two {
+    margin-right: -250px;
+}
+
+.CTA-img-cnt-two {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.CTA-img-cnt-two-1 img {
+    width: 65%;
+}
+
+.CTA-img-cnt-two .CTA-img-cnt-two-2 img {
+    width: 100%;
+    margin-bottom: -70px;
+}
+
+/* THE SECOND SECTION OF THE SITE */
+
+.second-section {
+    background: #F9FBFD;
+}
+
+.second-section {
+    margin-top: 10px;
+}
+
+.second-section-span {
+    color: #0065FE;
+}
+
+.second-section-cnt {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0 28px 0;
+    max-width: 78%;
+    margin: auto;
+}
+
+.second-section-cnt-two {
+    display: flex;
+    gap: 90px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section-two p {
+    line-height: 20px;
+}
+
+/* THE THIRD SECTION OF THE SITE */
+
+.section-three {
+    display: flex;
+    justify-content: space-between;
+    max-width: 88%;
+    margin: auto;
+    padding-top: 120px;
+    font-size: 15px;
+}
+
+.section-three-art-one h2{
+    padding-bottom: 20px;
+}
+
+.section-three-art-two {
+    display: flex;
+    gap: 30px;
+}
+
+.section-three-art-two-article {
+    line-height: 22px;
+}
+
+.section-three-art-two-article img {
+    margin-bottom: 20px;
+}
+
+.section-three-art-two-article h2 {
+    margin-bottom: 20px;
+}
+
+.section-three-art-two-article p {
+    margin-bottom: 40px;
+}
+
+.section-three-art-one {
+    line-height: 22px;
+}
+
+/* THE FOURTH SECTION OF THE SITE */
+
+.section-four-ctn {
+    margin: 100px 0 100px 0;
+}
+
+.section-four-section-one {
+    text-align: center;
+    line-height: 20px;
+}
+
+.prize-tag {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.section-four-section-one h2 {
+    padding-bottom: 10px;
+}
+
+.section-four-section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pay-box-one {
+    border: 1px solid #0065FE;
+    border-radius: 10px 0 0 10px;
+    padding: 25px 40px 0px 40px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* margin-top: 50px; */
+    margin-right: -1px;
+}
+
+.pay-box-two {
+    background-color: #060b22;
+    border-radius: 10px 10px 10px 10px;
+    padding: 80px 50px 80px 50px;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #fff;
+}
+
+.pay-box-three {
+    border: 1px solid #0065FE;
+    border-radius: 0px 10px 10px 0;
+    padding: 25px 40px 00px 40px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: -1px;
+}
+
+.check-circle {
+    display: flex;
+    gap: 10px;
+}
+
+.section-four-section-three {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.section-four-section-three .btn-one {
+    padding: 12px 24px;
+    border-radius: 100px;
+    border: 1px solid #0065FE;
+    background-color: #fff;
+    color: #0065FE;
+}
+
+.section-four-section-three .btn-two {
+    padding: 13px 37px;
+    border-radius: 100px;
+    border: none;
+    background-color: #0065FE;
+    color: #fff;
+    margin-left: 10px;
+}
+
+/* THE FIFTH SECTION OF THE SITE */
+
+.section-seven {
+    background-color: #060b22;
+    height: 45vh;
+    margin-top: 120px;
+}
+
+.section-seven-art {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-seven-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -500px;
+    color: #fff;
+    line-height: 60px;
+}
+
+.section-seven-sec button {
+    padding: 13px 45px;
+    border-radius: 100px;
+    border: none;
+    background-color: #0065FE;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.section-seven-img-two img{
+    margin-left: -400px;
+}
+
+/* THE ACTUAL FIFTH SECTION OF THE SITE */
+
+.section-five {
+    background-color: #060b22;
+    height: 70vh;
+    margin-bottom: 100px;
+}
+
+.section-five-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -500px;
+    margin-top: 90px;
+    /* line-height: 40px; */
+    background-color: #fff;
+    height: 280px;
+    border-radius: 10px;
+    padding: 0px 30px 0px 30px;
+}
+
+.section-five-sec input {
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: 1px solid #0065FE;
+    color: #0065FE;
+}
+
+.section-five-img-two img{
+    margin-left: -400px;
+    margin-bottom: -450px;
+}
+
+.input-one {
+    width: 347px;
+    margin-bottom: 20px;
+}
+
+.input-two {
+    width: 167px;
+}
+
+.input-three {
+    width: 167px;
+    margin-left: 7px;
+}
+
+.section-five-sec button {
+    padding: 10px 133px;
+    margin-top: 20px;
+    background-color: #0065FE;
+    border: none;
+    border-radius: 60px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.section-five-p {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: #0065FE;
+    font-size: 12px;
+    margin-left: -42px;
+}
+
+.p {
+    margin-left: -101px;
+}
+
+ 
+
+
+h1 {
+    text-align: center;
+  }
+  
+  /* Sets the width for the accordion. Sets the margin to 90px on the top and bottom and auto to the left and right */
+  
+  .accordion {
+    width: 800px;
+    /* margin: 90px auto; */
+    margin-left: -150px;
+    color: black;
+    background-color: white;
+    padding: 45px 45px;
+
+  }
+
+  .accordion-body {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .accordion-img1 {
+    margin-top: -100px;
+  }
+
+  .accordion-img2  img{
+    margin-left: -150px;
+    margin-bottom: -892px;
+  }
+
+  .accordion .container {
+    position: relative;
+    margin: 10px 10px;
+  }
+  
+  /* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+  
+  .accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+  }
+
+
+/* Positions the plus sign 5px from the right. Centers it using the transform property. */
+
+.accordion .label::before {
+    content: '+';
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 30px;
+    transform: translateY(-50%);
+  }
+  
+  /* Hides the content (height: 0), decreases font size, justifies text and adds transition */
+  
+  .accordion .content {
+    position: relative;
+    background: white;
+    height: 0;
+    font-size: 16px;
+    text-align: justify;
+    width: 780px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  
+  /* Adds a horizontal line between the contents */
+  
+  .accordion hr {
+    width: 100;
+    margin-left: 0;
+    border: 1px solid grey;
+  }
+
+
+
+/* Un hides the content part when active. Sets the height */
+
+.accordion .container.active .content {
+    height: 80px;
+  }
+  
+  /* Changes from plus sign to negative sign once active */
+  
+  .accordion .container.active .label::before {
+    content: '-';
+    font-size: 30px;
+  }
+
+  .FAQs {
+    font-size: 30px;
+    padding-bottom: 10px
+  }
+
+
+  /* THE LAST SECTION OF THE SITE */
+
+  .footer {
+    display: flex;
+  }
+
+  .footer-ctn {
+    display: flex;
+    max-width: 79%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 100px;
+    /* border: 1px solid yellow; */
+    margin-left: -369px;
+  }
+
+  .footer-sec-one {
+    padding-right: 100px;
+  }
+
+  .footer-sec-one .logo-2 img{
+    margin-left: -7px;
+    padding-bottom: 30px;
+  }
+
+  .social-logo {
+    display: flex;
+    gap: 20px;
+  }
+
+  .footer-sec-two {
+    display: flex;
+    gap: 60px;
+    line-height: 25px;
+  }
+
+  .footer-side-img1 img{
+    margin-bottom: -615px;
+  }
+
+  .footer-side-img2 {
+    position: absolute;
+    left: 808px;
+    top: 4879px;
+  }
+
+  .footer-sec-two h2 {
+    padding-bottom: 15px;
+  }
+
+  .footer-sec-two p {
+    color: #202020;
+  }
+
+  .footer-sec-two section {
+    padding-bottom: 70px;
+  }
+
+  .different {
+    margin-top: -25px;
+  }
+
+  .terms {
+    position: absolute;
+    left: 900px;
+  }
